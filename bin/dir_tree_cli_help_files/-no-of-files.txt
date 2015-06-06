@@ -1,0 +1,15 @@
+
+-----------------
+  -no-of-files
+-----------------
+
+  use:
+  ---
+
+    it states the no of the direct descendant files to the dir.
+
+  usage:
+  -----
+
+    dtree  dir_path  -no-of-files
+    dtree  dir_path  -nof

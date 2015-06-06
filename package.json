@@ -1,0 +1,24 @@
+{
+  "name": "dir_tree",
+  "version": "3.0.18",
+  "description": "Creates a Searchable, Sortable & Printable Tree For Stated Directory Path.",
+  "main": "dir_tree.js",
+  "author": "Ankur Dandecha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DandechaAnkur/NodeJS-Directory-Tree"
+  },
+  "bin": {
+    "dtree": "./bin/dir_tree_cli.js",
+    "dir_tree": "./bin/dir_tree_cli.js"
+  },
+  "licence": "ISC",
+  "keywords": [
+    "Directory",
+    "Tree",
+    "Hierarchy",
+    "Printable",
+    "Searchable",
+    "Sortable"
+  ]
+}

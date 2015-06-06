@@ -1,0 +1,16 @@
+
+--------------------
+  -fileless-tree
+--------------------
+
+  use:
+  ---
+
+    it generates the hollow dir tree,
+    which will intentionally not show any files.
+
+  usage:
+  -----
+
+    dtree  dir_path  -fileless-tree
+    dtree  dir_path  -ft

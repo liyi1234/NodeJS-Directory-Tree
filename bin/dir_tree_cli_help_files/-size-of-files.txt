@@ -1,0 +1,16 @@
+
+-------------------
+  -size-of-files
+-------------------
+
+  use:
+  ---
+
+    it states the the sum of the sizes of the direct descendant files to the
+    dir, in bytes.
+
+  usage:
+  -----
+
+    dtree  dir_path  -size-of-files
+    dtree  dir_path  -sof

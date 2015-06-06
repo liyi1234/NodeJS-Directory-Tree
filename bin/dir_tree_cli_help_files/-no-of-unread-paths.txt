@@ -1,0 +1,16 @@
+
+------------------------
+  -no-of-unread-paths
+------------------------
+
+  use:
+  ---
+
+    it states the no of the direct descendant paths to the dir that couldn't
+    be read.
+
+  usage:
+  -----
+
+    dtree  dir_path  -no-of-unread-paths
+    dtree  dir_path  -noup

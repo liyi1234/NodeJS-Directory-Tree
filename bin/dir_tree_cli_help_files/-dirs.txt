@@ -1,0 +1,15 @@
+
+----------
+  -dirs
+----------
+
+  use:
+  ---
+
+    it enlists the direct descendant dirs to the dir.
+
+  usage:
+  -----
+
+    dtree  dir_path  -dirs
+    dtree  dir_path  -d

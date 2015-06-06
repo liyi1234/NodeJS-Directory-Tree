@@ -1,0 +1,60 @@
+
+----------
+  dtree
+----------
+
+  use:
+  ---
+
+    printing a tree for the stated dir.
+
+    searching for files or dirs using patterns.
+
+    re-searching the file search results, which are again file searchable.
+
+    listing statistics such as:
+
+      the direct and/or indirect descendant files & dirs.
+
+      their counts, sizes in bytes, creation & modification times.
+
+    finding a valid order of creating dirs inside the stated dir.
+
+    printing the hollow dir tree ie, one not showing any files.
+
+    etc.
+
+  usage:
+  -----
+
+    dtree  dir_path  [command]
+
+    square brackets suggest that specifying one command is optional.
+
+    when no command is specified, the nature is to print the tree.
+
+  list of commands:
+  ----------------
+                                short-form
+    -dirs                         -d
+    -no-of-dirs                   -nod
+    -total-dirs                   -td
+    -no-of-total-dirs             -notd
+    -files                        -f
+    -no-of-files                  -nof
+    -total-files                  -tf
+    -no-of-total-files            -notf
+    -dirs-creation-order          -dco
+    -fileless-tree                -ft
+    -size                         -s
+    -size-of-files                -sof
+    -unread-paths                 -up
+    -no-of-unread-paths           -noup
+    -total-unread-paths           -tup
+    -no-of-total-unread-paths     -notup
+    -find-dirs                    -fd
+    -find-files                   -ff
+
+    to get helpful information about a command, execute:
+
+      dtree  -h  command

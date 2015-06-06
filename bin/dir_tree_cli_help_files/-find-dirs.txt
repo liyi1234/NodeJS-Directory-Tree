@@ -1,0 +1,50 @@
+
+---------------
+  -find-dirs
+---------------
+
+  use:
+  ---
+
+    to find dirs whose paths match specified patterns.
+
+  usage:
+  -----
+
+    dtree  dir_path  -find-dirs  sub-command{1,2}
+    dtree  dir_path  -fd         sub-command{1,2}
+
+    sub-command{1, 4} means the sub-command should appear at least once &
+    at most twice.
+
+    a sub-command is made up of two parts:
+
+      the first part is any one of the following 10 strings:
+
+        -idr    -idr-i    -idr-ig   -idr-g    -idr-gi
+        -edr    -edr-i    -edr-ig   -edr-g    -edr-gi
+
+      & the second part is a relevant pattern-string.
+
+    idr stands for include dir regexp.
+    edr stands for exclude dir regexp.
+
+    the extra 'i' is the ignore case flag of the regexp.
+
+    the extra 'g' is the global match flag of the regexp.
+
+    searching-logic:
+    ---------------
+
+      a dir will be searched only if it's not excluded.
+        (its path isn't like edr)
+        an excluded dir will not be searched at all.
+
+      after that, if the dir is included (path is like idr),
+        it will be remembered.
+        & then each of its direct descendant dirs will be searched.
+
+    note:
+    ----
+
+      the patterns test the paths starting from the root dir.

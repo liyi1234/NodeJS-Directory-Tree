@@ -1,0 +1,16 @@
+
+------------------------
+  -total-unread-paths
+------------------------
+
+  use:
+  ---
+
+    it enlists both the direct & the indirect descendant paths to the dir
+    that couldn't be read.
+
+  usage:
+  -----
+
+    dtree  dir_path  -total-unread-paths
+    dtree  dir_path  -tup

@@ -1,0 +1,19 @@
+
+-------------------------
+  -dirs-creation-order
+-------------------------
+
+  use:
+  ----
+
+    to replicate a dir hierarchy, we must create its dirs in a valid order,
+    as in, the parent dir must exist before it can have any child dirs in it.
+
+    thus this command gives the direct & the indirect descendant dir paths
+    arranged in a valid creation order.
+
+  usage:
+  -----
+
+    dtree  dir_path  -dirs-creation-order
+    dtree  dir_path  -dco
